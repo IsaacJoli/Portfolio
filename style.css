@@ -29,7 +29,7 @@ nav{
     height: 17vh;
 }
 .nav-links{
-    gap: 2rem;
+    gap: 2.5rem;
     list-style: none;
     font-size: 1.5rem;
 }
@@ -47,8 +47,13 @@ A:hover{
 }
 
 /* Logo */
-.logo{
+.logo {
     font-size: 2rem;
+    justify-items: center;
+}
+.logo img {
+    width: 40%;
+    height: auto;
 }
 
 .logo:hover{
@@ -153,7 +158,7 @@ section{
     text-align: center;
 }
 .section__text__p2{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 .title{
@@ -301,8 +306,8 @@ background: rgb(250, 250, 250);
 }
 .project-img{
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    width: 400px;
+    height: 300px;
 }
 .project-title{
     margin: 1rem;
